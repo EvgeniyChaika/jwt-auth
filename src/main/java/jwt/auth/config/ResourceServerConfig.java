@@ -11,8 +11,8 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 /**
  * Created by echaika on 17.07.2019
  */
-@EnableResourceServer
 @Configuration
+@EnableResourceServer
 public class ResourceServerConfig extends WebSecurityConfigurerAdapter {
 
     private final AuthenticationManager authenticationManager;
