@@ -13,7 +13,7 @@ security:
       access-token-uri: http://localhost:8087/auth/oauth/token
       user-authorization-uri: http://localhost:8087/auth/oauth/authorize
     resource:
-      user-info-uri: http://localhost:8087/auth/rest/test
+      user-info-uri: http://localhost:8087/auth/rest/test/principal
 
 spring:
   thymeleaf:
